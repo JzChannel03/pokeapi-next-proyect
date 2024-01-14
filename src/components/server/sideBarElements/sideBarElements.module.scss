@@ -1,0 +1,21 @@
+.sideBarElement {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px dashed white;
+  border-radius: 5px;
+  padding: 8px;
+  transition-duration: 0.5s;
+  &:hover {
+    span {
+      color: yellow;
+    }
+    border-radius: 15px;
+    transition-duration: 0.5s;
+  }
+
+  .text {
+    font-size: 0.7rem;
+  }
+}

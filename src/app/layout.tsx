@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Silkscreen } from "next/font/google";
 import "./globals.css";
+import "./icons-style.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Silkscreen({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",

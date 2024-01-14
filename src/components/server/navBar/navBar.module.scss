@@ -1,0 +1,28 @@
+.nav {
+  width: 84%;
+  padding: 2%;
+  background-color: red;
+  color: white;
+  ul {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+      a {
+        font-size: 1em;
+        text-decoration: none;
+        color: var(--foreground-rgb);
+        font-weight: 600;
+        padding: 0.5rem 1rem;
+        border-radius: var(--border-radius);
+        transition: all 0.2s ease-in-out;
+      }
+    }
+  }
+}
